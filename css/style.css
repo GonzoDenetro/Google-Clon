@@ -19,13 +19,13 @@ html {
 }
 .header-nav-ul {
     width: 250px;
-    height: 40px;
+    height: auto;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
+    align-items: center;
 }
 .header-menu_item {
-    height: 30px;
+    /* height: 30px; */
     margin-top: 17px;
     align-items: center;
 }
@@ -36,13 +36,26 @@ html {
     cursor: pointer;
     padding: 10px;
 }
-.header-menu_item .icon {
+.menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+/* .header-menu_item .icon {
     width: 25px;
     height: 25px;
     color: gray;
     cursor: pointer;
+} */
+.header-menu_item img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
 }
-
 main {
     display: flex;
 }
