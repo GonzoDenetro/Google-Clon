@@ -56,31 +56,22 @@ html {
     height: 35px;
     margin-left: 10px;
 }
+/* MAIN */
 main {
-    display: flex;
+    text-align: center;
+    margin-top: 100px;
 }
-main div {
-    display: flex;
-    margin:  0 auto;
-    flex-direction: column;
-
-}
-figure {
-    width: 250px;
-    display: flex;
-    align-items: center;
-    margin:  auto;
-    margin-top: 150px;
-    margin-bottom: 20px;
+.main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
 .logo
 {
-    width: 100%;
+    width: 272px;
+    height: 92px;
 }
-.search {
-    width: 500px;
-    height: 35px;
-}
+
 footer
 {
     display: flex;
